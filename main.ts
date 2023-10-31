@@ -306,7 +306,7 @@ let Skier = sprites.create(img`
     `, SpriteKind.Player)
 Skier.setStayInScreen(true)
 Skier.x = 100
-Skier.setPosition(72, 99)
+Skier.setPosition(77, 30)
 Speed = -20
 controller.moveSprite(Skier)
 distance = 0
